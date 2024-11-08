@@ -27,7 +27,7 @@ input{
     border-radius: 5px;
     width: 97%;
     height: 30px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 input:focus{
     border-color:  #0969DA;
