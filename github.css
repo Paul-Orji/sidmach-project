@@ -1,0 +1,130 @@
+body{
+    background-color: #0d1117;
+}
+.head{
+    margin: 20px 0;
+    text-align: center;
+    font-family: "Quicksand", serif;
+    font-size: 24px;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #fff;
+}
+.login-sect{
+    background-color: #161c23;
+    color: #fff;
+    width: 250px;
+    justify-self: center;
+    padding: 20px;
+    border: solid 0.5px grey;
+    border-radius: 5px;
+
+}
+input{
+    background-color: #0d1117 ;
+    border: solid 0.5px grey;
+    border-radius: 5px;
+    width: 97%;
+    height: 30px;
+    margin-top: 5px;
+}
+input:focus{
+    border-color:  #0969DA;
+    outline: #0969DA;
+}
+/* .login-sect #passwd{
+    margin-top: 30px;
+} */
+label{
+    margin-top: 20px;
+    font-family: "Quicksand", serif;
+    font-size: 12px;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+}
+.login-sect span a{
+    color: #0969DA;
+    font-family: "Quicksand", serif;
+    font-size: 12px;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    margin-left: 75px;
+
+}
+#sign-btn{
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(3, 151, 3);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 100% ;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+#sign-btn:hover{
+    opacity: 0.8;
+}
+.create{
+    margin-top: 20px;
+    background-color: #0d1117;
+    text-align: center;
+    width: 290px;
+    justify-self: center;
+    border: solid 0.5px grey;
+    border-radius: 5px;
+}
+.create a{
+    color: #0969DA;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    text-decoration: none;
+}
+.create a:hover{
+    text-decoration: underline;
+}
+.create p{
+    color: #fff;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 14px;
+}
+.create p span a{
+    font-weight: 600;
+    /* font-style: italic; */
+}
+.create p span a:hover{
+    text-decoration: underline;
+}
+footer{
+    display: flex;
+    justify-self: center;
+    margin-top: 3rem;
+}
+footer p a{
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    color: grey;
+}
+footer p a:hover{
+    color: #0969DA;
+    text-decoration: underline;
+}
